@@ -31,7 +31,7 @@ Need to add end-to-end testing
 Need to add further user verifications on the backend
 
 Command to clone the repository:
-open a git bash window in the directory you want to place the project into, then enter the command below
+open a git bash window in the directory you want to place the project into, then enter the command: 
 git clone https://gitlab.com/schrotha/expense-reimbursement-system.git
 
 Starting the project:

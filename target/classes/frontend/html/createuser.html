@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Create Account</h1>
+	
+		<form id="new-account-form" method="post" action="/create-account">
+			
+			<p>Username</p>
+			<input placeholder="Username" name="username">
+			<p>Password</p>
+			<input placeholder="Password" name="password">
+			<p>First Name</p>
+			<input placeholder="First Name" name="fName">
+			<p>Last Name</p>
+			<input placeholder="Last Name" name="lName">
+			<p>Email Address</p>
+			<input placeholder="Email Address" name="email">
+			<p>Role</p>
+			<select name="role">
+				<option value="Employee">Employee</option>
+				<option value="Finance Manager">Finance Manager</option>
+			</select>
+			<p id="error-message"></p>
+			<input type="submit" value="Create Account" name="create">
+		</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Reimbursement</title>
+</head>
+<body>
+	<h1>Submit new reimbursement</h1>
+	
+	<form id="new-reimbursement-form" method="post" action="/create-reimbursement">
+			
+		<p>Reimbursement Amount</p>
+		<input placeholder="Amount" name="amount">
+		<p>Description</p>
+		<input placeholder="Description" name="description">
+		<p>ReimbursementType(LODGING, TRAVEL, FOOD, or OTHER)</p>
+		<select name="rType">
+			<option value="OTHER">OTHER</option>
+			<option value="LODGING">LODGING</option>
+			<option value="TRAVEL">TRAVEL</option>
+			<option value="FOOD">FOOD</option>
+		</select>
+		<p id="error-message"></p>
+		<input type="submit" value="Submit Request" name="create request">
+	</form>
+	
+</body>
+</html>
